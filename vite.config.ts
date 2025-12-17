@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
+      base: '/savitribai-phule-village-library/',
     return {
       server: {
         port: 3000,
